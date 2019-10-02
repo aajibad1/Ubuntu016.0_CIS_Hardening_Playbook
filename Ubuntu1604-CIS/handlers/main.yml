@@ -1,6 +1,5 @@
 ---
 # handlers file for Ubuntu1604-CIS
-
 - name: sysctl flush ipv4 route table
   become: true
   sysctl:
